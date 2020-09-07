@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e14bed-9d57-4d1d-9a3d-8d7fcd588b3a" name="Default Changelist" comment="Add Lesson4 homework.&#10;Created 9 methods for solve the TicTacToe task.&#10;This code works correct for game maps from 3x3 to 10x10 and&#10;win streaks &gt; 2 (I tested map 10x10 and winStreak = 5).&#10;More comments are in code.">
-      <change afterPath="$PROJECT_DIR$/src/Lesson6/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson6/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson6/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson6/ZooTest.java" afterDir="false" />
+    <list default="true" id="34e14bed-9d57-4d1d-9a3d-8d7fcd588b3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/Plate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson5/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson6/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/ZooTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +48,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ZooTest">
-    <configuration name="GuessTheWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.GuessTheWord" />
-      <module name="GeekBrains_Java_LvL_1_HomeWorks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="HW4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson4.HW4" />
       <module name="GeekBrains_Java_LvL_1_HomeWorks" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson7.MainClass" />
+      <module name="GeekBrains_Java_LvL_1_HomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +115,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GuessTheWord" />
       <item itemvalue="Application.HW4" />
       <item itemvalue="Application.TicTacToe" />
       <item itemvalue="Application.TestEmployee" />
       <item itemvalue="Application.ZooTest" />
+      <item itemvalue="Application.MainClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.ZooTest" />
         <item itemvalue="Application.TestEmployee" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.HW4" />
-        <item itemvalue="Application.GuessTheWord" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598556040833</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Lesson6 homework.&#10;Created 4 classes: the base abstract class is Animal. Dog and Cat are extends Animal. Class ZooTest was created for test created classes.">
+      <created>1599162813952</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599162813952</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,7 +183,8 @@
     <MESSAGE value="This is Lesson 2 HomeWork. I solved all 7 tasks, and I hope all of them are correct.&#10;&#10;Add methods: &#10;1. firstTask() - the first task solving;&#10;2. printResult(int[] array) - this method print array to console;&#10;3. diagonalMatrix(int rowsColumns) - print the square matrix size of rowsColumns with 1 in diagonal elements and 0 in non diagonal;&#10;4. getMinMaxFromArray(int[] array) - find the min and max elements from array and print them to console;&#10;5. checkBalance(int[] array) - check the balance of array;&#10;6. changeArray(int n) - shift the elements in array on n positions. If n &gt; 0, then right shift, if n &lt; 0, then left shift.&#10;&#10;Tasks 2 and 3 solved without method creating." />
     <MESSAGE value="This is Lesson 3 HomeWork. I solved all 2 tasks, and I hope all of them are correct.&#10;&#10;Add classes: &#10;1.GuessTheNumber - class with task 1 answer;&#10;2.GuessTheWord - class with task 2 answer.&#10;&#10;GuessTheNumber consist of 3 methods:&#10;1: main;&#10;2: getNumberFromConsole();&#10;3: initNewGame();&#10;&#10;GuessTheWord consist of 1 method - main." />
     <MESSAGE value="Исправление ошибки git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление ошибки git" />
+    <MESSAGE value="Add Lesson6 homework.&#10;Created 4 classes: the base abstract class is Animal. Dog and Cat are extends Animal. Class ZooTest was created for test created classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson6 homework.&#10;Created 4 classes: the base abstract class is Animal. Dog and Cat are extends Animal. Class ZooTest was created for test created classes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Intentions" timestamp="1598782174441">
@@ -180,22 +195,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598555875345" />
-    <state x="1562" y="419" key="#com.intellij.ide.util.MemberChooser" timestamp="1599162454802">
+    <state x="1562" y="419" key="#com.intellij.ide.util.MemberChooser" timestamp="1599502959682">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1562" y="419" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599162454802" />
+    <state x="1562" y="419" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599502959682" />
     <state x="741" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599066332779">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="741" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599066332779" />
-    <state x="1193" y="156" key="CommitChangelistDialog2" timestamp="1598783685121">
+    <state x="774" y="291" key="CommitChangelistDialog2" timestamp="1599162813031">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1193" y="156" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1598783685121" />
-    <state x="253" y="570" key="Github.CreatePullRequestDialog" timestamp="1598301526752">
+    <state x="774" y="291" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1599162813031" />
+    <state x="1700" y="458" key="FileChooserDialogImpl" timestamp="1599508299972">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="253" y="570" key="Github.CreatePullRequestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598301526752" />
+    <state x="1700" y="458" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599508299972" />
+    <state x="996" y="389" key="Github.CreatePullRequestDialog" timestamp="1599162872940">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="996" y="389" key="Github.CreatePullRequestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599162872940" />
     <state x="496" y="651" key="Github.ShareDialog" timestamp="1597744727043">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -220,22 +239,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="531" y="632" width="967" height="301" key="GridCell.Tab.-1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598779637322" />
-    <state width="1234" height="274" key="GridCell.Tab.0.bottom" timestamp="1599162010048">
+    <state width="1234" height="179" key="GridCell.Tab.0.bottom" timestamp="1599509630870">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599162010048" />
-    <state width="1234" height="274" key="GridCell.Tab.0.center" timestamp="1599162010048">
+    <state width="1234" height="179" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599509630870" />
+    <state width="1234" height="179" key="GridCell.Tab.0.center" timestamp="1599509630870">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="274" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599162010048" />
-    <state width="1234" height="274" key="GridCell.Tab.0.left" timestamp="1599162010048">
+    <state width="1234" height="179" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599509630870" />
+    <state width="1234" height="179" key="GridCell.Tab.0.left" timestamp="1599509630869">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="274" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599162010048" />
-    <state width="1234" height="274" key="GridCell.Tab.0.right" timestamp="1599162010048">
+    <state width="1234" height="179" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599509630869" />
+    <state width="1234" height="179" key="GridCell.Tab.0.right" timestamp="1599509630870">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="274" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599162010048" />
+    <state width="1234" height="179" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599509630870" />
     <state x="623" y="697" width="1680" height="329" key="GridCell.Tab.1.bottom" timestamp="1598780187701">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -284,10 +303,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="531" y="632" width="967" height="301" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598779637331" />
-    <state x="232" y="423" key="Vcs.Push.Dialog.v2" timestamp="1598556052386">
+    <state x="232" y="423" key="Vcs.Push.Dialog.v2" timestamp="1599162818359">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="232" y="423" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598556052386" />
+    <state x="232" y="423" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599162818359" />
     <state x="271" y="432" width="950" height="543" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1597745537663">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -296,18 +315,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="886" y="310" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599159948747" />
-    <state x="578" y="548" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599079010319">
+    <state x="578" y="548" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599501729658">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="578" y="548" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599079010319" />
+    <state x="578" y="548" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599501729658" />
     <state x="623" y="697" width="983" height="368" key="dock-window-1" timestamp="1598779946745">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="623" y="697" width="983" height="368" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1598779946745" />
-    <state x="430" y="347" key="git4idea.branch.GitSmartOperationDialog" timestamp="1598292770428">
+    <state x="430" y="347" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599501725376">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="430" y="347" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598292770428" />
+    <state x="430" y="347" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599501725376" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1598780269609">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
